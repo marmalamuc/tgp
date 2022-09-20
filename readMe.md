@@ -1,3 +1,1 @@
-This booksite is the debut poetry collection by Andrew P. Dillon.
-
-[The Great Permission](https://thegreatpermission.com)
+*[The Great Permission: A reliquary]({{site.url}})* is a booksite that serves as the debut poetry collection by [Andrew P. Dillon({{site.authorSite}})].
