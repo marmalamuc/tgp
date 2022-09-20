@@ -1,0 +1,287 @@
+[
+
+
+
+
+{
+"title": "About the author",
+"tags": "",
+"keywords": "backmatter",
+"url": "aboutAuthor.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "About the format of this booksite",
+"tags": "",
+"keywords": "backmatter",
+"url": "aboutFormat.html",
+"summary": "I'm a technical writer by profession. Late into the drafting process for my first manuscript, I realized that the web offered several possibilities that a physical book did not. The following are notes about the technologies &amp; design principles that underpin this booksite."
+}
+,
+
+
+
+{
+"title": "Acknowledgements",
+"tags": "",
+"keywords": "backmatter",
+"url": "acknowledgements.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Table of Contents",
+"tags": "",
+"keywords": "frontmatter",
+"url": "contents.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Dedication",
+"tags": "",
+"keywords": "arthur smithfrontmatter",
+"url": "dedication1.html",
+"summary": "for Arthur Smith&colon;<br><br>
+Thanks for your wisdom, which seems to know many paths, and insist.<br>
+I hope the pups were waiting for you.<br>"
+}
+,
+
+
+
+{
+"title": "Dedication",
+"tags": "",
+"keywords": "frontmattermelissa marion",
+"url": "dedication2.html",
+"summary": "for Melissa Rosella Marion, my first reader&colon;<br><br> Thank you for believing in me."
+}
+,
+
+
+
+{
+"title": "",
+"tags": "",
+"keywords": "alice frimanfrontmatterepigraph",
+"url": "epigraph.html",
+"summary": "<q>Poetry is the great permission.</q><br>
+-Alice Friman<br><br>
+<q>Barbeques are supposed to be messy.</q><br>
+-Little Pete"
+}
+,
+
+
+
+{
+"title": "Features",
+"tags": "",
+"keywords": "frontmatter",
+"url": "features.html",
+"summary": "This page articulates features in <cite class="book">The Great Permission</cite> that would be unavailable in a traditional print book or eReader."
+}
+,
+
+
+
+
+
+{
+"title": "Gallery",
+"tags": "",
+"keywords": "collection",
+"url": "gallery.html",
+"summary": "<p>I'm not a photographer. I rarely think to take a picture of anything. Still, this collection of images felt like a valuable &amp; necessary component to this reliquary.</p>
+<p>Images in <cite class="book">The Great Permission</cite> are <strong>not</strong> covered by Creative Commons licensing; however, potential reusers may <a href="mailto:contact@andrewdillonpoetry.com">contact me</a> about reusing images on an individual basis.</p>"
+}
+,
+
+
+
+{
+"title": "The Great Permission",
+"tags": "",
+"keywords": "homepage",
+"url": "index.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "License",
+"tags": "",
+"keywords": "frontmatter",
+"url": "license.html",
+"summary": "<p>I built this booksite on open source technology. I believe in the communities that create &amp; distribute intellectual property for the sake of growing community and enhancing the underlying technology. In that spirit, I am licensing <cite class="book">The Great Permission</cite> under a <a href="https://creativecommons.org">Creative Commons</a> license.</p>
+<p>In brief, the specific license I've chosen allows reusers to distribute, remix, adapt, and build upon the material in any medium or format, for noncommercial purposes only. It is my very strong intention that no reuser ever sell, relicense, or otherwise profit from any part of <cite class="book">The Great Permission</cite> or any derivation thereof, since I may never receive any compensation for the years I worked to create it.</p>
+<p>If others modify or adapt the material, they must license the modified material under identical terms.</p>
+<p>This license requires that reusers credit the creator, Andrew P. Dillon.</p>"
+}
+,
+
+
+
+{
+"title": "Site metrics",
+"tags": "",
+"keywords": "collection",
+"url": "metrics.html",
+"summary": "This page displays site metrics collected by Google Analytics. If people start reading the book, I'll update occasionally."
+}
+,
+
+
+
+{
+"title": "",
+"tags": "",
+"keywords": "epigraphnew section",
+"url": "part1.html",
+"summary": "<q>We write<br>
+Poems with lies in them, but they help a little</q><br>
+-Robert Bly<br><br>
+<q>Ready ready?<br>Ready ready.</q><br>
+-Laura Nyro"
+}
+,
+
+
+
+{
+"title": "",
+"tags": "",
+"keywords": "epigraphnew section",
+"url": "part2.html",
+"summary": "<q>I'm no Heifetz, but I get by.</q><br>
+-Rowlf the Dog<br><br>
+<q>And as for my experience of myself, it comes and goes, I'm not sure it's any one thing</q><br>
+-Robert Hass"
+}
+,
+
+
+
+{
+"title": "",
+"tags": "",
+"keywords": "epigraphnew section",
+"url": "part3.html",
+"summary": "<q>We did not come to remain whole</q><br>
+-Robert Bly<br><br>
+<q>I am writing this so it will stay true.</q><br>
+-Tracy K. Smith"
+}
+,
+
+
+
+{
+"title": "",
+"tags": "",
+"keywords": "epigraphnew section",
+"url": "part4.html",
+"summary": "<q>I was that ruthless</q><br>
+-Natasha Trethewey<br><br>
+<q>What in the world makes you think I'm not comfortable?</q><br>
+-Allen Toussaint"
+}
+,
+
+
+
+{
+"title": "",
+"tags": "",
+"keywords": "epigraphnew section",
+"url": "part5.html",
+"summary": "<q>my old self necessary<br>and imperceptible as air</q><br>
+-Camille Dungy<br /><br />
+<q>what I'm telling you is<br />
+  Yes Yes Yes</q><br />
+-Kaylin Haught"
+}
+,
+
+
+
+{
+"title": "",
+"tags": "",
+"keywords": "epigraphnew section",
+"url": "part6.html",
+"summary": "<q>Poets amend the rules whenever necessary to write the poems they need to write. Once the poet creates something new, we analyze the poem to see how it was made. Then the rules get revised.</q><br>
+-Harryette Mullen<br>"
+}
+,
+
+
+
+{
+"title": "Poems by category",
+"tags": "",
+"keywords": "collection",
+"url": "poemsByCategory.html",
+"summary": "Every poem is tagged with one or more keywords that allow me to group similar poems. (There's no <em>love</em> keyword because they're all love poems.) This page compiles each series &amp; keyword into a list of poems."
+}
+,
+
+
+
+{
+"title": "Family recipes",
+"tags": "",
+"keywords": "collection",
+"url": "recipes.html",
+"summary": "<p>At some point in the last few years, it suddenly felt very important that I learn &amp; record my family's recipes. Partly, I knew that a lot of them weren't written down (or were, but were prepared from memory and the original recipe was no longer relevant), and if someone didn't capture them, they'd eventually be lost.</p>
+<p>I think I also got the sense that this was the art the women in my family have created &amp; offered, but probably without much gratitude, and certainly not the fanfare deserved for an art that shaped our lives.</p>
+<p>Like most things we call &quot;American&quot;, these recipes have no single origin. Some have been passed down for generations, but all were modified along the way&mdash;adding, changing, &amp; removing ingredients, and mixing ideas across families. Some were probably grabbed from <cite class="magazine">Bon Appetite</cite> or the back of an Entenmann's box. Similarly, I'd encourage you to add, change, &amp; remove what you see here.</p>
+<p>Because this is a collection of mostly poetry, I don't expect you're a proficient baker or cook (as I am not). So, I'm spelling out procedures &amp; techniques that might seem obvious to the more advanced.</p>
+<p>Finally, each recipe comes with specific measurements, but that's mostly because I didn't know how else to represent them digitally. (I feel like I should give you some starting point.) Unless I'm baking, I rarely measure anything out. I cook the amount of meat I have; I prepare an amount of veggies &amp; fruit that feels right; I season so that I can see the spice I'm adding. And since I'm not measuring by mass, these numbers aren't especially reliable. I encourage you to think of the measurements as a starting place, if you choose to acknowledge them at all.</p>"
+}
+,
+
+
+
+
+
+
+
+{
+"title": "Workouts",
+"tags": "",
+"keywords": "collection",
+"url": "workouts.html",
+"summary": "Something here"
+}
+,
+
+
+
+{
+"title": "",
+"tags": "",
+"keywords": "",
+"url": "assetscssstyle.css",
+"summary": ""
+}
+
+
+
+
+
+
+]

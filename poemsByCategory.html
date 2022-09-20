@@ -1,0 +1,1231 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Every poem is tagged with one or more keywords that allow me to group similar poems. (There's no love keyword because they're all love poems.) This page comp...">
+<meta name="keywords" content=" collection">
+<title>Poems by category | The Great Permission</title>
+<link rel="stylesheet" href="css/syntax.css">
+
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">-->
+<link rel="stylesheet" href="css/modern-business.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="css/customstyles.css">
+<link rel="stylesheet" href="css/boxshadowproperties.css">
+<link rel="stylesheet" href="css/poemStyle.css">
+<!-- most color styles are extracted out to here -->
+<link rel="stylesheet" href="css/theme-blue.css">
+
+<link href="fonts/KohinoorBangla.ttc" rel="stylesheet">
+<link href="fonts/Kohinoor.ttc" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="js/jquery.navgoco.min.js"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- Anchor.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.0/anchor.min.js"></script>
+<script src="js/toc.js"></script>
+<script src="js/customscripts.js"></script>
+
+<link rel="shortcut icon" href="images/favicon.ico">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="tgp" href="https://thegreatpermission.com/feed.xml">
+
+    <script>
+        $(document).ready(function() {
+            // Initialize navgoco with default options
+            $("#mysidebar").navgoco({
+                caretHtml: '',
+                accordion: true,
+                openClass: 'active', // open
+                save: false, // leave false or nav highlighting doesn't work right
+                cookie: {
+                    name: 'navgoco',
+                    expires: false,
+                    path: '/'
+                },
+                slide: {
+                    duration: 400,
+                    easing: 'swing'
+                }
+            });
+
+            $("#collapseAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', false);
+            });
+
+            $("#expandAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', true);
+            });
+
+        });
+
+    </script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#tg-sb-link").click(function() {
+                $("#tg-sb-sidebar").toggle();
+                $("#tg-sb-content").toggleClass('col-md-9');
+                $("#tg-sb-content").toggleClass('col-md-12');
+                $("#tg-sb-icon").toggleClass('fa-toggle-on');
+                $("#tg-sb-icon").toggleClass('fa-toggle-off');
+            });
+        });
+    </script>
+    
+
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-static-top">
+    <div class="container topnavlinks">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="fa fa-home fa-lg navbar-brand" href="index.html">&nbsp;<span class="projectTitle"> The Great Permission<span style="font-weight: 200;">&nbsp;|&nbsp;Andrew P. Dillon</span></span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <!-- toggle sidebar button -->
+                <li><a id="tg-sb-link" href="#"><i id="tg-sb-icon" class="fa fa-toggle-on"></i> Nav</a></li>
+                <!-- entries without drop-downs appear here -->
+
+
+
+
+                
+                
+                
+                <li><a href="https://www.andrewdillonpoetry.com" target="_blank" rel="noopener">Author</a></li>
+                
+                
+                
+                <li><a href="https://open.spotify.com/playlist/60QHaOeev3ySazwZq1E3xr?si=JpS86-JjTBiTl18mB3rT4g" target="_blank" rel="noopener">Playlist</a></li>
+                
+                
+                
+                <!-- entries with drop-downs appear here -->
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+                
+                
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Collections<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        
+                        
+                        <li><a href="recipes.html">Family recipes</a></li>
+                        
+                        
+                        
+                        <li><a href="gallery.html">Gallery</a></li>
+                        
+                        
+                        
+                        <li class="dropdownActive"><a href="poemsByCategory.html">Poems by category</a></li>
+                        
+                        
+                    </ul>
+                </li>
+                
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Give<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        
+                        
+                        <li><a href="https://www.paypal.me/andrewpdillon" target="_blank" rel="noopener">Donate to me!</a></li>
+                        
+                        
+                        
+                        <li><a href="https://www.patreon.com/andrewpdillon" target="_blank" rel="noopener">Support me!</a></li>
+                        
+                        
+                    </ul>
+                </li>
+                
+                
+                <!--comment out this block if you want to hide search-->
+                <!-- <li>
+                    <div id="search-demo-container">
+                        <input type="text" id="search-input" placeholder="">
+                        <ul id="results-container"></ul>
+                    </div>
+                    <script src="js/jekyll-search.js" type="text/javascript"></script>
+                    <script type="text/javascript">
+                            SimpleJekyllSearch.init({
+                                searchInput: document.getElementById('search-input'),
+                                resultsContainer: document.getElementById('results-container'),
+                                dataSource: 'search.json',
+                                searchResultTemplate: '<li><a href="{url}" title="Poems by category">{title}</a></li>',
+                    noResultsText: '',
+                            limit: 10,
+                            fuzzy: true,
+                    })
+                    </script>
+                </li> -->
+            </ul>
+        </div>
+        </div>
+        <!-- /.container -->
+</nav>
+
+<!-- Page Content -->
+<div class="container">
+  <div id="main">
+    <!-- Content Row -->
+    <div class="row">
+        
+        
+            <!-- Sidebar Column -->
+            <div class="col-md-3" id="tg-sb-sidebar">
+                
+
+<ul id="mysidebar" class="nav">
+  <li class="sidebarTitle"></li>
+  
+  
+  
+  <li>
+      <a title="Home" href="#">Home</a>
+      <ul>
+          
+          
+          
+          <li><a title="Title" href="index.html">Title</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Table of Contents" href="contents.html">Table of Contents</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a title="Collections" href="#">Collections</a>
+      <ul>
+          
+          
+          
+          <li><a title="Family recipes" href="recipes.html">Family recipes</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Gallery" href="gallery.html">Gallery</a></li>
+          
+          
+          
+          
+          
+          
+          <li class="active"><a title="Poems by category" href="poemsByCategory.html">Poems by category</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+      
+   <!-- <li class="sidebarTitle">Give</li>
+   <li id="navUL"><a href="https://www.paypal.me/andrewpdillon"><button type="button" class="btn btn-primary">Donate to me!</button></a>
+</li>
+   <li id="navUL"><a href="https://www.patreon.com/andrewpdillon"><button type="button" class="btn btn-primary">Support me!</button></a>
+</li>
+    if you aren't using the accordion, uncomment this block:
+         <p class="external">
+             <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
+         </p> -->
+
+</ul>
+
+<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<script>$("li.active").parents('li').toggleClass("active");</script>
+
+            </div>
+            
+        
+
+        <!-- Content Column -->
+        <div class="col-md-9" id="tg-sb-content">
+            <div class="post-header">
+   <h1 class="post-title-main">Poems by category</h1>
+</div>
+
+
+
+<div class="post-content">
+
+  
+    <div class="summary">Every poem is tagged with one or more keywords that allow me to group similar poems. (There's no <em>love</em> keyword because they're all love poems.) This page compiles each series &amp; keyword into a list of poems.
+</div>
+  
+
+  
+    
+<!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
+<script>
+$( document ).ready(function() {
+  // Handler for .ready() called.
+
+$('#toc').toc({ minimumHeaders: 0, listType: 'ul', showSpeed: 0, headers: 'h2,h3' });
+  /* Removed h2,h4 from headers above to streamline in-page toc */
+
+/* this offset helps account for the space taken up by the floating toolbar. */
+$('#toc').on('click', 'a', function() {
+  var target = $(this.getAttribute('href'))
+    , scroll_target = target.offset().top
+
+  $(window).scrollTop(scroll_target - 10);
+  return false
+})
+
+});
+</script>
+
+<div id="toc"></div>
+
+  
+
+  
+
+
+
+
+<h3>Apologias</h3>
+<ul>
+
+  <li><a href="/apologiaBigData.html">Apologia for Contributing to the Big Data Police State</a></li>
+
+  <li><a href="/apologiaWhatIMean.html">Apologia for Never Saying What I Mean</a></li>
+
+  <li><a href="/apologiaNoAnswers.html">Apologia of Having No Clear Answers</a></li>
+
+  <li><a href="/apologiaSausage.html">Apologia of Using a <i>Making the Sausage</i> Metaphor</a></li>
+
+  <li><a href="/apologiaSamePoem.html">Apologia of Writing Basically the Same Poem Again &amp; Again</a></li>
+
+  <li><a href="/apologiaGodAbandoned.html">Apologia of a God Who Abandoned Its Creation</a></li>
+
+</ul>
+
+
+<h3>Aubades</h3>
+<ul>
+
+  <li><a href="/aubadeArgentina.html">Aubade: Argentina</a></li>
+
+  <li><a href="/aubadeSavageGulf.html">Aubade: Savage Gulf State Park, Sawmill Campground, Site #5</a></li>
+
+</ul>
+
+
+
+
+
+
+<h3>Brandon &amp; Shannon</h3>
+<ul>
+
+  <li><a href="/aubadeSavageGulf.html">Aubade: Savage Gulf State Park, Sawmill Campground, Site #5</a></li>
+
+  <li><a href="/lettersBrandon.html">Dead Letters (to Brandon)</a></li>
+
+  <li><a href="/inTheOcean.html">In the ocean / The masses</a></li>
+
+  <li><a href="/noteBabyBear.html">Note to Baby Bear</a></li>
+
+  <li><a href="/stillLifeStillLife.html">Still Life, Still Life</a></li>
+
+  <li><a href="/todayYouWillDie.html">Today You Will Die or You Won't</a></li>
+
+  <li><a href="/catalog4apples.html">Catalog of Interstices (4)</a></li>
+
+</ul>
+
+
+<h3>Catalog of Interstices</h3>
+<ul>
+
+  <li><a href="/catalog1eggs.html">Catalog of Interstices (1)</a></li>
+
+  <li><a href="/catalog2hands.html">Catalog of Interstices (2)</a></li>
+
+  <li><a href="/catalog3mowing.html">Catalog of Interstices (3)</a></li>
+
+  <li><a href="/catalog4apples.html">Catalog of Interstices (4)</a></li>
+
+</ul>
+
+
+<h3>Dead Letters</h3>
+<ul>
+
+  <li><a href="/lettersBrandon.html">Dead Letters (to Brandon)</a></li>
+
+  <li><a href="/lettersJisan.html">Dead Letters (to Jisan)</a></li>
+
+</ul>
+
+
+<h3>Duende</h3>
+<ul>
+
+  <li><a href="/duende1.html">Duende (1)</a></li>
+
+  <li><a href="/duende3.html">Duende (3)</a></li>
+
+</ul>
+
+
+<h3>Notes</h3>
+<ul>
+
+  <li><a href="/noteBabyBear.html">Note to Baby Bear</a></li>
+
+  <li><a href="/nts31to75.html">Note to Self: Age 31 to 75</a></li>
+
+  <li><a href="/nts35to10.html">Note to Self: Age 35 to 10</a></li>
+
+  <li><a href="/ntsPresent.html">Note to Self: Present Day</a></li>
+
+  <li><a href="/nts1737.html">Notes to Self: Age 27 to 17 & 37</a></li>
+
+</ul>
+
+
+<h3>From the Shadow</h3>
+<ul>
+
+  <li><a href="/shadow3chris.html">From the Shadow (3)</a></li>
+
+  <li><a href="/shadow5body.html">From the Shadow (5)</a></li>
+
+</ul>
+
+
+
+
+<h3>Poems about America</h3>
+<ul>
+
+  <li><a href="/lettersJisan.html">Dead Letters (to Jisan)</a></li>
+
+  <li><a href="/decriminalizeEverything.html">Decriminalize Everything</a></li>
+
+</ul>
+
+
+
+
+<h3>Poems about anger</h3>
+<ul>
+
+  <li><a href="/duende1.html">Duende (1)</a></li>
+
+  <li><a href="/duende3.html">Duende (3)</a></li>
+
+  <li><a href="/forgingBoy.html">Forging the Boy</a></li>
+
+  <li><a href="/shadow3chris.html">From the Shadow (3)</a></li>
+
+</ul>
+
+
+<h3>Poems about the body</h3>
+<ul>
+
+  <li><a href="/confirmation.html">A Confirmation</a></li>
+
+  <li><a href="/bloodClotCoda.html">Blood Clot: Coda</a></li>
+
+  <li><a href="/catalog2hands.html">Catalog of Interstices (2)</a></li>
+
+  <li><a href="/daydream.html">Daydream</a></li>
+
+  <li><a href="/lettersBrandon.html">Dead Letters (to Brandon)</a></li>
+
+  <li><a href="/forgingBoy.html">Forging the Boy</a></li>
+
+  <li><a href="/shadow5body.html">From the Shadow (5)</a></li>
+
+  <li><a href="/imagineCity.html">Imagine a City</a></li>
+
+  <li><a href="/muscleMemory.html">Muscle Memory</a></li>
+
+  <li><a href="/synesthesia.html">Synesthesia</a></li>
+
+  <li><a href="/beautyMetaphor.html">The Beauty of the Metaphor is that it Breaks Down</a></li>
+
+  <li><a href="/viscosity.html">Viscosity</a></li>
+
+</ul>
+
+
+<h3>Poems about cosmology</h3>
+<ul>
+
+  <li><a href="/apologiaNoAnswers.html">Apologia of Having No Clear Answers</a></li>
+
+  <li><a href="/apologiaGodAbandoned.html">Apologia of a God Who Abandoned Its Creation</a></li>
+
+  <li><a href="/aubadeArgentina.html">Aubade: Argentina</a></li>
+
+  <li><a href="/dopplerEffect.html">Doppler Effect</a></li>
+
+  <li><a href="/newGalacticModel.html">New Galactic Model</a></li>
+
+  <li><a href="/ntsPresent.html">Note to Self: Present Day</a></li>
+
+  <li><a href="/pantoumKeepsExpanding.html">Pantoum that Keeps Expanding</a></li>
+
+  <li><a href="/synesthesia.html">Synesthesia</a></li>
+
+  <li><a href="/spaghettification.html">The Uncertainty Principle of Spaghettification</a></li>
+
+</ul>
+
+
+
+
+<h3>Poems about death</h3>
+<ul>
+
+  <li><a href="/inMemoriamArtSmith.html">In memoriam</a></li>
+
+  <li><a href="/inMemoriamMelissaMarion.html">In memoriam</a></li>
+
+  <li><a href="/itOnlyTakesTwo.html">It Only Takes Two to Make a Murder of Crows</a></li>
+
+  <li><a href="/whenAwake.html">When Awake</a></li>
+
+</ul>
+
+
+
+
+<h3>Poems about depression</h3>
+<ul>
+
+  <li><a href="/apologiaSausage.html">Apologia of Using a <i>Making the Sausage</i> Metaphor</a></li>
+
+  <li><a href="/bloodClotCoda.html">Blood Clot: Coda</a></li>
+
+  <li><a href="/oneOfThoseKind.html">One of Those Kind</a></li>
+
+  <li><a href="/whenAwake.html">When Awake</a></li>
+
+</ul>
+
+
+<h3>Poems about failure</h3>
+<ul>
+
+  <li><a href="/allTheLives.html">All the Lives I Could Not Live: Prologue</a></li>
+
+  <li><a href="/apologiaWhatIMean.html">Apologia for Never Saying What I Mean</a></li>
+
+  <li><a href="/apologiaSamePoem.html">Apologia of Writing Basically the Same Poem Again &amp; Again</a></li>
+
+  <li><a href="/apologiaGodAbandoned.html">Apologia of a God Who Abandoned Its Creation</a></li>
+
+  <li><a href="/nts1737.html">Notes to Self: Age 27 to 17 & 37</a></li>
+
+  <li><a href="/stillLifeStillLife.html">Still Life, Still Life</a></li>
+
+  <li><a href="/beautyMetaphor.html">The Beauty of the Metaphor is that it Breaks Down</a></li>
+
+</ul>
+
+
+<h3>Poems about family</h3>
+<ul>
+
+  <li><a href="/shadow3chris.html">From the Shadow (3)</a></li>
+
+  <li><a href="/itOnlyTakesTwo.html">It Only Takes Two to Make a Murder of Crows</a></li>
+
+  <li><a href="/nts35to10.html">Note to Self: Age 35 to 10</a></li>
+
+  <li><a href="/ntsPresent.html">Note to Self: Present Day</a></li>
+
+  <li><a href="/authorImaginesReincarnation.html">The Author at 11 Wanted to be Reincarnated as a Dog</a></li>
+
+</ul>
+
+
+<h3>Poems about home</h3>
+<ul>
+
+  <li><a href="/aubadeArgentina.html">Aubade: Argentina</a></li>
+
+  <li><a href="/lettersBrandon.html">Dead Letters (to Brandon)</a></li>
+
+  <li><a href="/shadow3chris.html">From the Shadow (3)</a></li>
+
+  <li><a href="/rushfordLake.html">Rushford Lake</a></li>
+
+  <li><a href="/startingFromBuffalo.html">Starting from Buffalo</a></li>
+
+</ul>
+
+
+<h3>Poems about hope</h3>
+<ul>
+
+  <li><a href="/confirmation.html">A Confirmation</a></li>
+
+  <li><a href="/apologiaSamePoem.html">Apologia of Writing Basically the Same Poem Again &amp; Again</a></li>
+
+  <li><a href="/bloodClotCoda.html">Blood Clot: Coda</a></li>
+
+  <li><a href="/catalog4apples.html">Catalog of Interstices (4)</a></li>
+
+  <li><a href="/coffeeTomorrow.html">Coffee Tomorrow</a></li>
+
+  <li><a href="/shadow5body.html">From the Shadow (5)</a></li>
+
+  <li><a href="/furtherSuggestions.html">Further Suggestions for Scrutinizing the Plan</a></li>
+
+  <li><a href="/iFeelEarthMove.html">I Feel the Earth Move</a></li>
+
+  <li><a href="/inTheOcean.html">In the ocean / The masses</a></li>
+
+  <li><a href="/noteBabyBear.html">Note to Baby Bear</a></li>
+
+  <li><a href="/oneDayIllFlyAway.html">One Day I'll Fly Away</a></li>
+
+  <li><a href="/refillingWell.html">Refilling the Well</a></li>
+
+  <li><a href="/stillLifeStillLife.html">Still Life, Still Life</a></li>
+
+  <li><a href="/beautyMetaphor.html">The Beauty of the Metaphor is that it Breaks Down</a></li>
+
+  <li><a href="/waterMayRise.html">The water may rise sharply</a></li>
+
+</ul>
+
+
+<h3>Poems about indecision</h3>
+<ul>
+
+  <li><a href="/allTheLives.html">All the Lives I Could Not Live: Prologue</a></li>
+
+  <li><a href="/apologiaSamePoem.html">Apologia of Writing Basically the Same Poem Again &amp; Again</a></li>
+
+  <li><a href="/lettersBrandon.html">Dead Letters (to Brandon)</a></li>
+
+  <li><a href="/newGalacticModel.html">New Galactic Model</a></li>
+
+  <li><a href="/oneOfThoseKind.html">One of Those Kind</a></li>
+
+</ul>
+
+
+<h3>Poems about language</h3>
+<ul>
+
+  <li><a href="/iLetThemDriftAway.html">I let them drift away</a></li>
+
+  <li><a href="/imagineCity.html">Imagine a City</a></li>
+
+  <li><a href="/nts31to75.html">Note to Self: Age 31 to 75</a></li>
+
+  <li><a href="/spaghettification.html">The Uncertainty Principle of Spaghettification</a></li>
+
+  <li><a href="/waterMayRise.html">The water may rise sharply</a></li>
+
+  <li><a href="/whatHeDidntKnow.html">What He Didn't Know Before</a></li>
+
+  <li><a href="/whatsMissing.html">What’s Missing</a></li>
+
+  <li><a href="/whenLifeWasLow.html">When Your Life Was Low</a></li>
+
+  <li><a href="/muna.html">문아</a></li>
+
+</ul>
+
+
+<h3>Poems with a laugh</h3>
+<ul>
+
+  <li><a href="/allTheLives.html">All the Lives I Could Not Live: Prologue</a></li>
+
+  <li><a href="/apologiaBigData.html">Apologia for Contributing to the Big Data Police State</a></li>
+
+  <li><a href="/apologiaNoAnswers.html">Apologia of Having No Clear Answers</a></li>
+
+  <li><a href="/apologiaSamePoem.html">Apologia of Writing Basically the Same Poem Again &amp; Again</a></li>
+
+  <li><a href="/catalog3mowing.html">Catalog of Interstices (3)</a></li>
+
+  <li><a href="/nts1737.html">Notes to Self: Age 27 to 17 & 37</a></li>
+
+  <li><a href="/oneOfThoseKind.html">One of Those Kind</a></li>
+
+  <li><a href="/startingFromBuffalo.html">Starting from Buffalo</a></li>
+
+  <li><a href="/waterMayRise.html">The water may rise sharply</a></li>
+
+  <li><a href="/todayYouWillDie.html">Today You Will Die or You Won't</a></li>
+
+</ul>
+
+
+<h3>Poems about loss</h3>
+<ul>
+
+  <li><a href="/blackColor.html">Black is the Color—</a></li>
+
+  <li><a href="/duende1.html">Duende (1)</a></li>
+
+  <li><a href="/furtherSuggestions.html">Further Suggestions for Scrutinizing the Plan</a></li>
+
+  <li><a href="/iLetThemDriftAway.html">I let them drift away</a></li>
+
+  <li><a href="/letsGrowYoung.html">Let's Grow Young Together</a></li>
+
+  <li><a href="/oneDayIllFlyAway.html">One Day I'll Fly Away</a></li>
+
+  <li><a href="/pulp.html">Pulp</a></li>
+
+  <li><a href="/whatsMissing.html">What’s Missing</a></li>
+
+  <li><a href="/whenLifeWasLow.html">When Your Life Was Low</a></li>
+
+  <li><a href="/muna.html">문아</a></li>
+
+</ul>
+
+
+<h3>Poems about masculinity</h3>
+<ul>
+
+  <li><a href="/allTheLives.html">All the Lives I Could Not Live: Prologue</a></li>
+
+  <li><a href="/lettersBrandon.html">Dead Letters (to Brandon)</a></li>
+
+  <li><a href="/lettersJisan.html">Dead Letters (to Jisan)</a></li>
+
+  <li><a href="/forgingBoy.html">Forging the Boy</a></li>
+
+  <li><a href="/shadow3chris.html">From the Shadow (3)</a></li>
+
+  <li><a href="/shadow5body.html">From the Shadow (5)</a></li>
+
+  <li><a href="/inTheOcean.html">In the ocean / The masses</a></li>
+
+  <li><a href="/noteBabyBear.html">Note to Baby Bear</a></li>
+
+  <li><a href="/authorImaginesReincarnation.html">The Author at 11 Wanted to be Reincarnated as a Dog</a></li>
+
+  <li><a href="/menOfChernobyl.html">The Men of <cite>Chernobyl</cite></a></li>
+
+  <li><a href="/todayYouWillDie.html">Today You Will Die or You Won't</a></li>
+
+  <li><a href="/whatHeDidntKnow.html">What He Didn't Know Before</a></li>
+
+</ul>
+
+
+<h3>Poems about obscure sorrows</h3>
+<ul>
+
+  <li><a href="/allTheLives.html">All the Lives I Could Not Live: Prologue</a></li>
+
+  <li><a href="/apologiaSamePoem.html">Apologia of Writing Basically the Same Poem Again &amp; Again</a></li>
+
+  <li><a href="/arsPoeticaHarrison.html">Ars Poetica</a></li>
+
+  <li><a href="/aubadeArgentina.html">Aubade: Argentina</a></li>
+
+  <li><a href="/coffeeTomorrow.html">Coffee Tomorrow</a></li>
+
+  <li><a href="/lettersBrandon.html">Dead Letters (to Brandon)</a></li>
+
+  <li><a href="/dust.html">Dust</a></li>
+
+  <li><a href="/furtherSuggestions.html">Further Suggestions for Scrutinizing the Plan</a></li>
+
+  <li><a href="/itOnlyTakesTwo.html">It Only Takes Two to Make a Murder of Crows</a></li>
+
+  <li><a href="/littleWing.html">Little Wing</a></li>
+
+  <li><a href="/noteBabyBear.html">Note to Baby Bear</a></li>
+
+  <li><a href="/nts31to75.html">Note to Self: Age 31 to 75</a></li>
+
+  <li><a href="/oneOfThoseKind.html">One of Those Kind</a></li>
+
+  <li><a href="/rushfordLake.html">Rushford Lake</a></li>
+
+  <li><a href="/menOfChernobyl.html">The Men of <cite>Chernobyl</cite></a></li>
+
+  <li><a href="/vicesVirtues.html">Vices & Virtues of Isolationism</a></li>
+
+</ul>
+
+
+
+
+<h3>Poems about poems</h3>
+<ul>
+
+  <li><a href="/apologiaSamePoem.html">Apologia of Writing Basically the Same Poem Again &amp; Again</a></li>
+
+  <li><a href="/duende3.html">Duende (3)</a></li>
+
+  <li><a href="/whatsMissing.html">What’s Missing</a></li>
+
+  <li><a href="/arsPoeticaHarrison.html">Ars Poetica</a></li>
+
+</ul>
+
+
+<h3>Poems about regret</h3>
+<ul>
+
+  <li><a href="/allTheLives.html">All the Lives I Could Not Live: Prologue</a></li>
+
+  <li><a href="/apologiaGodAbandoned.html">Apologia of a God Who Abandoned Its Creation</a></li>
+
+  <li><a href="/shadow3chris.html">From the Shadow (3)</a></li>
+
+  <li><a href="/itOnlyTakesTwo.html">It Only Takes Two to Make a Murder of Crows</a></li>
+
+  <li><a href="/littleWing.html">Little Wing</a></li>
+
+  <li><a href="/nts35to10.html">Note to Self: Age 35 to 10</a></li>
+
+</ul>
+
+
+<h3>Poems about sex</h3>
+<ul>
+
+  <li><a href="/daydream.html">Daydream</a></li>
+
+  <li><a href="/duende1.html">Duende (1)</a></li>
+
+  <li><a href="/muscleMemory.html">Muscle Memory</a></li>
+
+  <li><a href="/nts31to75.html">Note to Self: Age 31 to 75</a></li>
+
+  <li><a href="/viscosity.html">Viscosity</a></li>
+
+</ul>
+
+
+<h3>Poems to sing</h3>
+<ul>
+
+  <li><a href="/iFeelEarthMove.html">I Feel the Earth Move</a></li>
+
+  <li><a href="/iLetThemDriftAway.html">I let them drift away</a></li>
+
+  <li><a href="/oneDayIllFlyAway.html">One Day I'll Fly Away</a></li>
+
+  <li><a href="/waterMayRise.html">The water may rise sharply</a></li>
+
+</ul>
+
+<!--
+
+__
+{% assign thisSeries = page.series %}
+{% assign thisKey = page.keywords %}
+{% assign allowed = site.data.poemlists.allowedKeywords %}
+{% assign sortedPoems = site.poems | sort: "title" %}
+{% assign poemList = sortedPoems | map: "title" %}
+
+{% for item in poemList %}
+  {% if  %}
+
+  {% endif %}
+{% endfor %}
+
+
+Liquid logic for
+- allowedKeywords
+- series
+-->
+
+<!--
+Maybe try a Special Layout:
+- knowledge base
+- FAQ for accordian/expand feature
+ -->
+
+ <!-- {% capture keys %}
+   {% if page.keywords == "buffaloBills" %}
+       Buffalo Bills
+     {% elsif page.keywords == "helloWorld" %}
+       Hello World
+     {% elsif page.keywords == "techJourney" %}
+       Tech Journey
+     {% elsif page.keywords == "personal" %}
+       Personal Matters
+   {% endif %}
+ {% endcapture %}
+
+ {% for tag in site.tags %}
+   <h3 id="title">{{ tag[0] }}</h3>
+   <ul>
+     {% for poem in tag[1] %}
+       <li><a href="{{ poem.url }}">{{ poem.title }}</a></li>
+     {% endfor %}
+   </ul>
+ {% endfor %}
+-->
+
+
+  <div class="headRoom"></div>
+  
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+<div class="container">
+  <div class="row">
+      <div class="col-sm-4">
+        
+      </div>
+
+    <div class="col-sm-4">
+  <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-via="DillonAndrewP" data-show-count="true">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+
+
+      <div class="col-sm-4">
+        
+      </div>
+  </div>
+</div>
+
+
+  
+    <div class="tags">
+        
+    </div>
+  
+</div>
+
+<hr class="shaded"/>
+
+<footer>
+  <div class="row">
+    <div class="col-md-6">
+      <div id="giveFoot"">License</div>
+      <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/" style="font-size: small;"><a property="dct:title" rel="cc:attributionURL" href="https://www.thegreatpermission.com">The Great Permission</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.andrewdillonpoetry.com">Andrew P. Dillon</a> is licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>
+
+    </div>
+
+    <div class="col-md-2">
+      <div id="giveFoot">Give</div>
+      <a href="https://www.paypal.me/andrewpdillon">Donate to me!</a><br>
+      <a href="https://www.patreon.com/andrewpdillon">Support me!</a>
+    </div>
+
+    <div class="col-md-4 footer">
+      <div id="giveFoot">Meta</div>
+      <cite class="book">The Great Permission</cite> v1.0<br>
+      
+
+      Site last generated: 20 Sep 2022
+      <!-- <img src="images/company_logo.png" /> -->
+    </div>
+  </div>
+</footer>
+
+
+        </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
+</div>
+<!-- /#main -->
+    </div>
+
+    <script>
+          //open external links in a new window
+          //https://jekyllcodex.org/without-plugin/new-window-fix/
+          function external_new_window() {
+              for(var c = document.getElementsByTagName("a"), a = 0;a < c.length;a++) {
+                  var b = c[a];
+                  if(b.getAttribute("href") && b.hostname !== location.hostname) {
+                      b.target = "_blank";
+                      b.rel = "noopener";
+                  }
+              }
+          }
+          external_new_window();
+        </script>
+        
+</body>
+
+<!-- the google_analytics_id gets auto inserted from the config file -->
+
+
+
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','G-CX5DHMH51S','auto');ga('require','displayfeatures');ga('send','pageview');</script>
+
+
+</html>
