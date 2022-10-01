@@ -14,9 +14,9 @@
   <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="This page displays site metrics collected by Google Analytics. If people start reading the book, I'll update occasionally.">
-<meta name="keywords" content=" collection">
-<title>Site metrics | The Great Permission</title>
+<meta name="description" content="">
+<meta name="keywords" content=" ">
+<title>readMe | The Great Permission</title>
 <link rel="stylesheet" href="css/syntax.css">
 
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -213,7 +213,7 @@
                                 searchInput: document.getElementById('search-input'),
                                 resultsContainer: document.getElementById('results-container'),
                                 dataSource: 'search.json',
-                                searchResultTemplate: '<li><a href="{url}" title="Site metrics">{title}</a></li>',
+                                searchResultTemplate: '<li><a href="{url}" title="readMe">{title}</a></li>',
                     noResultsText: '',
                             limit: 10,
                             fuzzy: true,
@@ -317,7 +317,7 @@
         <!-- Content Column -->
         <div class="col-md-9" id="tg-sb-content">
             <div class="post-header">
-   <h1 class="post-title-main">Site metrics</h1>
+   <h1 class="post-title-main">readMe</h1>
 </div>
 
 
@@ -325,57 +325,37 @@
 <div class="post-content">
 
   
-    <div class="summary">This page displays site metrics collected by Google Analytics. If people start reading the book, I'll update occasionally.</div>
-  
-
-  
-    
-<!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
-<script>
-$( document ).ready(function() {
-  // Handler for .ready() called.
-
-$('#toc').toc({ minimumHeaders: 0, listType: 'ul', showSpeed: 0, headers: 'h2,h3' });
-  /* Removed h2,h4 from headers above to streamline in-page toc */
-
-/* this offset helps account for the space taken up by the floating toolbar. */
-$('#toc').on('click', 'a', function() {
-  var target = $(this.getAttribute('href'))
-    , scroll_target = target.offset().top
-
-  $(window).scrollTop(scroll_target - 10);
-  return false
-})
-
-});
-</script>
-
-<div id="toc"></div>
 
   
 
-  <!--
-To track:
-- most viewed
-- busiest day/month
-- bounce rate (how often visitors open your page, but then return to search results instead of exploring further)
-- pages per session/page depth
-- avg session duration
-- page with highest time on page
-- top exit pages (most common pages that people are on when they leave the site)
-- most shared link/page
+  <p><em><a href="https://www.thegreatpermission.com">The Great Permission: A reliquary</a></em> is a poetry booksite, and the debut collection by <a href="https://www.andrewdillonpoetry.com">Andrew P. Dillon</a>.</p>
 
-Also list poem stats:
-- longest drafting time
-- oldest poem
-- newest poem
-- most keywords
-- longest title
-- most words
-- fewest words
-- most lines
-- fewest lines
- -->
+<h2 id="release-notes">Release notes</h2>
+<h3 id="v110-01-oct-2022">v1.1.0 (01 Oct 2022)</h3>
+<ul>
+  <li>New <strong>Author</strong> dropdown in topnav groups website, email, &amp; social media links</li>
+  <li>Added <strong>Toolchain</strong> table to <code class="language-plaintext highlighter-rouge">aboutFormat</code></li>
+  <li>Added <strong>Release notes</strong> &amp; <strong>To do</strong> to <code class="language-plaintext highlighter-rouge">readMe</code></li>
+</ul>
+
+<h3 id="v101-21-sep-2022">v1.0.1 (21 Sep 2022)</h3>
+<ul>
+  <li>Successfully troubleshot Google Analytics tracking issues</li>
+  <li>Added version number to <code class="language-plaintext highlighter-rouge">footer</code></li>
+  <li>Changed margin unit from px to % at <code class="language-plaintext highlighter-rouge">index</code> &gt; <code class="language-plaintext highlighter-rouge">#subtitle</code></li>
+  <li>Added <strong>Suggested one-time donation</strong> to <code class="language-plaintext highlighter-rouge">aboutFormat</code></li>
+</ul>
+
+<h3 id="v100-20-sep-2022">v1.0.0 (20 Sep 2022)</h3>
+<p>Initial deployment</p>
+
+<h2 id="to-do">To do</h2>
+<ol>
+  <li>Add cookie consent button</li>
+  <li>Re-record low quality audio</li>
+  <li>Fix randomized arrays in <code class="language-plaintext highlighter-rouge">navtabs</code></li>
+  <li>Reformat image gallery with thumbnails &amp; full-size images</li>
+</ol>
 
 
   <div class="headRoom"></div>

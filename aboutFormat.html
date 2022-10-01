@@ -135,10 +135,6 @@
                 
                 
                 
-                <li><a href="https://www.andrewdillonpoetry.com" target="_blank" rel="noopener">Author</a></li>
-                
-                
-                
                 <li><a href="https://open.spotify.com/playlist/60QHaOeev3ySazwZq1E3xr?si=JpS86-JjTBiTl18mB3rT4g" target="_blank" rel="noopener">Playlist</a></li>
                 
                 
@@ -146,6 +142,29 @@
                 <!-- entries with drop-downs appear here -->
                 <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
                 
+                
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Author<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        
+                        
+                        <li><a href="https://www.andrewdillonpoetry.com" target="_blank" rel="noopener">Website</a></li>
+                        
+                        
+                        
+                        <li><a href="mailto:contact@andrewdillonpoetry.com" target="_blank" rel="noopener">Email</a></li>
+                        
+                        
+                        
+                        <li><a href="https://www.instagram.com/andrewdillonpoetry" target="_blank" rel="noopener">Instagram</a></li>
+                        
+                        
+                        
+                        <li><a href="https://www.twitter.com/DillonAndrewP" target="_blank" rel="noopener">Twitter</a></li>
+                        
+                        
+                    </ul>
+                </li>
                 
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Collections<b class="caret"></b></a>
@@ -1124,7 +1143,43 @@ $('#toc').on('click', 'a', function() {
 
   
 
-  <h2>Jekyll</h2>
+  <h2>Toolchain</h2>
+<table>
+  <colgroup>
+    <col width="30%" />
+    <col width="70%" />
+  </colgroup>
+  <tr>
+    <th>Framework</th>
+    <td><a href="#jekyll">Jekyll</a></td>
+  </tr>
+  <tr>
+    <th>Languages</th>
+    <td>CSS<br>
+      HTML<br>
+      JavaScript (jQuery, node.js, vanilla)<br>
+      Liquid<br>
+      YAML</td>
+  </tr>
+  <tr>
+    <th>Editor</th>
+    <td>Atom</td>
+  </tr>
+  <tr>
+    <th>Notes &amp; organization</th>
+    <td>OneNote</td>
+  </tr>
+  <tr>
+    <th>Version control</th>
+    <td>Git (CLI)</td>
+  </tr>
+  <tr>
+    <th>Deployment</th>
+    <td>GitHub Pages</td>
+  </tr>
+</table>
+
+<h3>Jekyll</h3>
 <p>I built this book on Tom Johnson's <a href="https://idratherbewriting.com/documentation-theme-jekyll/index.html">Documentation Theme for Jekyll</a>, v6.0. He designed most of the cool navigation &amp; text features, like the accordian sidebar &amp; mouse-over tooltips. I'm not sure I could have produced this book in this form if Tom hadn't made his theme freely available.</p>
 
 <p>I made tweaks to his original layouts, stylesheets, header, footer, et cetera, but the theme is largely unchanged. I haven't taken the time to learn, for example, JavaScript; I most likely wouldn't have had the patience to learn &amp; iterate the code that keeps the sidebar navigation open &amp; highlights your current page.</p>
@@ -1467,10 +1522,10 @@ $('#toc').on('click', 'a', function() {
 
     <div class="col-md-4 footer">
       <div id="giveFoot">Meta</div>
-      <cite class="book">The Great Permission</cite> v1.0<br>
+      <cite class="book">The Great Permission</cite> v1.1.0<br>
       
 
-      Site last generated: 21 Sep 2022
+      Site last generated: 01 Oct 2022
       <!-- <img src="images/company_logo.png" /> -->
     </div>
   </div>
